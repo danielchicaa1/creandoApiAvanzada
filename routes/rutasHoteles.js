@@ -3,6 +3,9 @@
 
 import express from 'express';
 
+//importo los controladores
+import { ControladorHabitacion } from '../controllers/ControladorHabitacion.js';
+
 export let rutasAPI=express.Router()
 
 //Aca pone sus EndPoints
